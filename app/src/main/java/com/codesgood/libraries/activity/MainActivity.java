@@ -12,6 +12,7 @@ import com.codesgood.libraries.fragment.EventBusFragment;
 import com.codesgood.libraries.fragment.ExoPlayerFragment;
 import com.codesgood.libraries.fragment.GlideFragment;
 import com.codesgood.libraries.fragment.MainFragment;
+import com.codesgood.libraries.fragment.MapsFragment;
 import com.codesgood.libraries.fragment.RetrofitFragment;
 
 import org.greenrobot.eventbus.EventBus;
@@ -76,7 +77,8 @@ public class MainActivity extends AppCompatActivity implements MainFragment.Main
                 replaceFragment(ExoPlayerFragment.getInstance(), ExoPlayerFragment.TAG);
                 break;
             case R.id.maps_button:
-                replaceFragment(RetrofitFragment.getInstance(), RetrofitFragment.TAG);
+                replaceFragment(MapsFragment.getInstance(), MapsFragment
+                        .TAG);
                 break;
             case R.id.vision_button:
                 replaceFragment(RetrofitFragment.getInstance(), RetrofitFragment.TAG);
