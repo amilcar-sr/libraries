@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/retrofit_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/retrofit" />
+
+    <Button
+        android:id="@+id/glide_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/glide" />
+
+    <Button
+        android:id="@+id/calligraphy_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/calligraphy" />
+
+    <Button
+        android:id="@+id/event_bus_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/eventbus" />
+
+    <Button
+        android:id="@+id/leak_canary_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/leakcanary" />
+
+    <Button
+        android:id="@+id/exo_player_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/exoplayer" />
+
+    <Button
+        android:id="@+id/maps_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/maps" />
+
+    <Button
+        android:id="@+id/vision_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/vision" />
+
+</LinearLayout>

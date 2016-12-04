@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Libraries</string>
+    <string name="retrofit">Retrofit</string>
+    <string name="glide">Glide</string>
+    <string name="calligraphy">Calligraphy</string>
+    <string name="eventbus">EventBus</string>
+    <string name="leakcanary">LeakCanary</string>
+    <string name="exoplayer">ExoPlayer</string>
+    <string name="maps">Maps</string>
+    <string name="vision">Vision</string>
+    <string name="base_url">https://jsonplaceholder.typicode.com/</string>
+    <string name="back">Back</string>
+    <string name="glide_url">http://blog.grafixartist.com/wp-content/uploads/2015/10/android-studio-1.4-image-gallery-with-Glide_header_1080.png</string>
+    <string name="exo_player_video_url">http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4</string>
+</resources>
