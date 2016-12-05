@@ -51,7 +51,6 @@ public class MainFragment extends Fragment implements View.OnClickListener {
         view.findViewById(R.id.leak_canary_button).setOnClickListener(this);
         view.findViewById(R.id.exo_player_button).setOnClickListener(this);
         view.findViewById(R.id.maps_button).setOnClickListener(this);
-        view.findViewById(R.id.vision_button).setOnClickListener(this);
         return view;
     }
 

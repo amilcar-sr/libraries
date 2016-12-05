@@ -8,6 +8,7 @@ import android.os.Bundle;
 import com.codesgood.libraries.R;
 import com.codesgood.libraries.event.PostClickEvent;
 import com.codesgood.libraries.fragment.CalligraphyFragment;
+import com.codesgood.libraries.fragment.CanaryLeakFragment;
 import com.codesgood.libraries.fragment.EventBusFragment;
 import com.codesgood.libraries.fragment.ExoPlayerFragment;
 import com.codesgood.libraries.fragment.GlideFragment;
@@ -73,15 +74,15 @@ public class MainActivity extends AppCompatActivity implements MainFragment.Main
             case R.id.event_bus_button:
                 replaceFragment(RetrofitFragment.getInstance(), RetrofitFragment.TAG);
                 break;
+            case R.id.leak_canary_button:
+                replaceFragment(CanaryLeakFragment.getInstance(), CanaryLeakFragment.TAG);
+                break;
             case R.id.exo_player_button:
                 replaceFragment(ExoPlayerFragment.getInstance(), ExoPlayerFragment.TAG);
                 break;
             case R.id.maps_button:
                 replaceFragment(MapsFragment.getInstance(), MapsFragment
                         .TAG);
-                break;
-            case R.id.vision_button:
-                replaceFragment(RetrofitFragment.getInstance(), RetrofitFragment.TAG);
                 break;
             default:
                 break;
